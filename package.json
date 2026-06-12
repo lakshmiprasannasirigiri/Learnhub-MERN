@@ -1,0 +1,10 @@
+{
+  "name": "smart-paths-pro",
+  "private": true,
+  "scripts": {
+    "start": "cd learnhub1 && npm start",
+    "dev": "cd learnhub1 && npm run dev",
+    "build": "cd learnhub1 && npm run build",
+    "install": "cd learnhub1 && npm install"
+  }
+}
