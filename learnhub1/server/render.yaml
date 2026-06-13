@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: learnhub-api
+    runtime: node
+    startCommand: npm start
+    buildCommand: npm install
+    envVars:
+      - key: MONGO_URI
+        scope: build
+      - key: CLIENT_ORIGIN
+        scope: build
+      - key: PORT
+        value: 4000
